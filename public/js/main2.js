@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+    new SweetScroll({});
     tsParticles.load("particles-js", {
         particles: {
             number: {

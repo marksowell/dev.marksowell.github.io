@@ -8225,9 +8225,9 @@ sup {
 	background-attachment: fixed
 }
 
-/* #particles-js .particles-js-canvas-el {
+#particles-js .particles-js-canvas-el {
 	height: 100vh!important
-} */
+}
 
 .header {
 	font-family: 'Montserrat', sans-serif;
