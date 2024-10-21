@@ -1,0 +1,15 @@
+---
+import Particles from "astro-particles";
+const options = {
+  particles: {
+    number: { value: 100 },
+    color: { value: "#ffffff" },
+    shape: { type: "circle" },
+    size: { value: 3, random: true },
+    move: { enable: true, speed: 1 }
+  }
+};
+---
+
+<!-- Use the Particles component -->
+<Particles id="tsparticles" options={options} style="position: absolute; width: 100%; height: 100%; z-index: -1;" />
