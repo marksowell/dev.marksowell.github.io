@@ -8441,15 +8441,23 @@ body {
 	margin: 0;
 	color: #fff
 }
-.blinking{
-    animation:blinkingText 1.2s infinite;
+
+.fa-mycredly:before {
+	display: flex;
+	height: 100%;
+    width: 100%;
+	content: "";
+	background: url("/images/credly.png") no-repeat 0 0;
+	background-size:  cover;
 }
-@keyframes blinkingText{
-    0%{     color: #fff;    }
-    49%{    color: #fff; }
-    60%{    color: transparent; }
-    99%{    color:transparent;  }
-    100%{   color: #fff;    }
+
+.fa-mycredly:hover:before {
+	display: flex;
+	height: 100%;
+    width: 100%;
+	content: "";
+    background: url("/images/credly_d.png") no-repeat 0 0;
+	background-size:  cover;
 }
 
 .fa-thm:before {
