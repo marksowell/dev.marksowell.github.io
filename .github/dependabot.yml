@@ -5,7 +5,11 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "npm" # Set to 'npm' for Node.js dependencies
+    directory: "/" # Root directory for the package.json file
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "github-actions" # For GitHub Actions workflow dependencies
+    directory: "/" # Root directory for .github/workflows
     schedule:
       interval: "weekly"
