@@ -104,3 +104,6 @@ document.addEventListener("DOMContentLoaded", function() {
         retina_detect: !0
     })
 }, !1);
+window.addEventListener("orientationchange", () => {
+    location.reload();
+  });
